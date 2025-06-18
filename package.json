@@ -1,0 +1,17 @@
+{
+  "name": "offres-electriques",
+  "version": "1.0.0",
+  "description": "Static web application for electrical offers",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve -s . -l 5173",
+    "start": "npx serve -s . -l 5173",
+    "build": "echo 'No build step required for static files'"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "keywords": ["static", "web", "html", "css", "javascript"],
+  "author": "",
+  "license": "ISC"
+}
